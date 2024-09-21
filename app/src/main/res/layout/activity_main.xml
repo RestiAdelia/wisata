@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bag"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="50sp"
+            android:layout_marginTop="450dp"
+            android:text="Wisata Jepang"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+
+           />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jepang menawarkan keindahan alam yang luar biasa, seperti Pegunungan Alpen Jepang, taman-taman nasional, hingga pantai-pantai indah di Okinawa. Budaya Jepang yang kaya meliputi festival tradisional, upacara minum teh, dan seni ikebana (seni merangkai bunga)."
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/btnshow"
+            android:layout_width="318dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:text="Show More"
+            android:textSize="20dp"
+            android:layout_marginTop="15sp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
