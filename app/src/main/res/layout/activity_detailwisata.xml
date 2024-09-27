@@ -26,14 +26,17 @@
             android:layout_height="wrap_content"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:layout_marginTop="8dp"/>
+            android:textAlignment="center"
+            android:layout_marginTop="8dp"
+            android:text="Judul wisata"/>
 
         <TextView
             android:id="@+id/descrip"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:layout_marginTop="4dp"/>
+            android:layout_marginTop="4dp"
+            android:text="This descripsion"/>
     </LinearLayout>
 
 
