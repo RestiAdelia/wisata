@@ -8,41 +8,6 @@ data class destination(
    val descrip :String
 )
 
-object MockList {
-
-    fun getModel(): List<destination> {
-        val itemModel1 = destination(
-            imageResId = R.drawable.japan,
-            name = "Apple",
-            descrip = "dsijdiejdeodkckdciddcdcjdjdkd"
-        )
-        val itemModel2 = destination(
-            imageResId = R.drawable.wisata,
-            name = "Apple",
-            descrip = "dsijdiejdeodkckdciddcdcjdjdkd"
-        )
-        val itemModel3 = destination(
-            imageResId = R.drawable.jepang,
-            name = "Apple",
-            descrip = "dsijdiejdeodkckdciddcdcjdjdkd"
-        )
-        val itemModel4 = destination(
-            imageResId = R.drawable.jep,
-            name = "Apple",
-            descrip = "dsijdiejdeodkckdciddcdcjdjdkd"
-        )
-
-
-        val itemList: ArrayList<destination> = ArrayList()
-        itemList.add(itemModel1)
-        itemList.add(itemModel2)
-        itemList.add(itemModel3)
-        itemList.add(itemModel4)
-        return itemList
-
-
-    }
-}
 
 object MockList1 {
 
@@ -60,14 +25,14 @@ object MockList1 {
             descrip = "Sebagai ibu kota Jepang, Tokyo adalah pusat ekonomi, politik, dan budaya yang sangat dinamis. Tokyo terkenal dengan gedung pencakar langitnya, distrik bisnis yang padat, dan kawasan hiburan seperti Shibuya, Shinjuku, dan Ginza. Di Tokyo, pengunjung dapat menemukan perpaduan unik antara teknologi canggih dan tradisi kuno, dengan kuil-kuil bersejarah yang berdampingan dengan pusat perbelanjaan modern, seperti Tokyo Tower, Sensoji Temple di Asakusa, dan Tokyo Skytree."
         )
         val itemModel3 = destination(
-            imageResId = R.drawable.jepang,
-            name = "Apple",
-            descrip = "dsijdiejdeodkckdciddcdcjdjdkd"
+            imageResId = R.drawable.kaisar_jepang,
+            name = "Istana kekaisar Tokyo",
+            descrip = "Istana kekaisaran Tokyo adalah rumah kediaman utama darai kaisar Jepang. Istana ini biasa dibuka untuk umum tiap harinya. Hanya saja untuk tanggal 2 januari dan 23 desember, bangunan istana dan juga taman bagian dalam dari istana ini tidak terbuka untuk umum. Untuk bisa melihat keluarga kerajaan, hanya bisa dilihat pada hari – hari tertentu saja dimna pada saat itu, anggota keluaraga kekaisaran biasanya membuat sebuah penampilan publik di balkon."
         )
         val itemModel4 = destination(
-            imageResId = R.drawable.jep,
-            name = "Apple",
-            descrip = "dsijdiejdeodkckdciddcdcjdjdkd"
+            imageResId = R.drawable.kuil_meiji,
+            name = "Kuil Meiji",
+            descrip = "Kuil ini dibangun pada tahun 1920 di Tokyo untuk mengenang Kaisar Meiji dan juga istrinya Empress Shōken. Berbeda dengan suasana hingar bingar kota Tokyo yang penuh dengan keramaian, Kuil Meiji ini justru merupakan tempat wisata yang cenderung lebih tenang dan juga jauh sekali dari gambaran perkotaan. Di wilayah kuil ini, sejauh mata memandang hanya ada panorama hutan hijau dengan jajaran pohon yang rindang yang tentunya bisa membuat tubuh dan juga pikiranmu beristirahat sejenak dari kepenatan perkotaan."
         )
 
 

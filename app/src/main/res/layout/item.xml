@@ -10,22 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/bar"/>
+       android:src="@drawable/jepang" />
 
-    <TextView
-        android:id="@+id/Name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textSize="18sp"
-        android:layout_marginTop="8dp"
-        android:text="jepang"/>
 
-    <TextView
-        android:id="@+id/descrip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="descripsi"/>
 
 
 </LinearLayout>

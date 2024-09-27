@@ -1,17 +1,15 @@
 package com.restiadelia.wisata
 
 import android.os.Bundle
-import android.widget.ImageView
-import android.widget.TextView
+
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
+
 import androidx.recyclerview.widget.RecyclerView
 import com.restiadelia.wisata.adapter.Adapterwisata
-import com.restiadelia.wisata.model.MockList
 import com.restiadelia.wisata.model.MockList1
 import com.restiadelia.wisata.model.destination
 
@@ -26,10 +24,11 @@ class pageberanda : AppCompatActivity() {
         rv_wisata = findViewById(R.id.rv_wisata)
         rv_wisata1 = findViewById(R.id.rv_wisata1)
 
-        rv_wisata.layoutManager = GridLayoutManager(this, 3, GridLayoutManager.VERTICAL, false)
-        rv_wisata1.layoutManager = GridLayoutManager(this, 2, GridLayoutManager.HORIZONTAL, false)
+        rv_wisata.layoutManager = GridLayoutManager(this, 4, GridLayoutManager.VERTICAL, false)
 
-        val adapter = Adapterwisata(MockList.getModel() as ArrayList<destination>, this)
+        rv_wisata1.layoutManager = GridLayoutManager(this, 2, GridLayoutManager.VERTICAL, false)
+
+        val adapter = Adapterwisata(MockList1.getModel() as ArrayList<destination>, this)
         val adapterr = Adapterwisata(MockList1.getModel() as ArrayList<destination>, this)
 
         rv_wisata.adapter = adapter
